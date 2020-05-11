@@ -83,35 +83,35 @@ public class Module4_Tests {
                 new Post(1l, "Earbuds",
                         "You have got to try these in your ears. So tiny and can even block the sounds of screaming toddlers if you so desire.",
                         "You have got to try these in your ears. So tiny and can even block the sounds of screaming toddlers if you so desire.",
-                        "Sarah Holderness", new Date()),
+                        "Billy Chen", new Date()),
                 new Post(2l, "Smart Speakers",
                         "Smart speakers listen to you all right.  Sometimes they get a little snippy but will still order your favorite takeout.",
                         "Smart speakers listen to you all right.  Sometimes they get a little snippy but will still order your favorite takeout.",
-                        "Sarah Holderness", new Date()),
+                        "Billy Chen", new Date()),
                 new Post(3l, "Device Charger",
                         "We all do a little too much scrolling in lieu of human interaction. This charger will keep you isolated.",
                         "We all do a little too much scrolling in lieu of human interaction. This charger will keep you isolated.",
-                        "Sarah Holderness", new Date()),
+                        "Billy Chen", new Date()),
                 new Post(4l, "Smart Home Lock",
                         "Want to play tricks on your teenager? This smart home lock will lock them out when they act like they run the house.",
                         "Want to play tricks on your teenager? This smart home lock will lock them out when they act like they run the house.",
-                        "Sarah Holderness", new Date()),
+                        "Billy Chen", new Date()),
                 new Post(5l, "Smart Instant Pot",
                         "This Instant Pot can do your shopping for you. When it gets home it will also put your meal together.",
                         "This Instant Pot can do your shopping for you. When it gets home it will also put your meal together.",
-                        "Sarah Holderness", new Date()),
+                        "Billy Chen", new Date()),
                 new Post(6l, "Mobile Tripod",
                         "Best gift for that older adult in your life who cannot keep their face in the FaceTime window.",
                         "Best gift for that older adult in your life who cannot keep their face in the FaceTime window.",
-                        "Sarah Holderness", new Date()),
+                        "Billy Chen", new Date()),
                 new Post(7l, "Travel Keyboard",
                         "You never know when inspiration for your latest novel will strike. Meet the perfect travel keyboard for your random thoughts.",
                         "You never know when inspiration for your latest novel will strike. Meet the perfect travel keyboard for your random thoughts.",
-                        "Sarah Holderness", new Date()),
+                        "Billy Chen", new Date()),
                 new Post(8l, "SD Card Reader",
                         "When a stranger passes us a top secret SD card the adventure begins.  Jason Bourne says, \"Hi\".",
                         "When a stranger passes us a top secret SD card the adventure begins.  Jason Bourne says, \"Hi\".",
-                        "Sarah Holderness", new Date())
+                        "Billy Chen", new Date())
         ));
     }
 
@@ -312,9 +312,9 @@ public class Module4_Tests {
         Element h3Elem = h3Elements.get(0);
         assertNotNull("Task 7: The template doesn't have an `<h3>` tag.", h3Elem);
 
-        boolean h3CorrectText = h3Elem.text().contains("Sarah Holderness");
+        boolean h3CorrectText = h3Elem.text().contains("Billy Chen");
 
-        message = "Task 7: The first post's first `<h3>` tag should display `Sarah Holderness` as the author.";
+        message = "Task 7: The first post's first `<h3>` tag should display `Billy Chen` as the author.";
         assertTrue(message, h3CorrectText);
 
         h3Elem = h3Elements.get(1);
